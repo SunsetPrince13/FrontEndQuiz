@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend quiz app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="start_display">
+            <section class="start_text">
+                <h1>Welcome to the <br><span style="font-weight: 900;">Frontend Quiz!</span></h1>
+                <p>Pick a subject to get started.</p>
+            </section>
+            
+
+            <section class="categories">
+                <button id="politics" class=".section_categories">Politics</button>
+                <button id="sports" class=".section_categories">Sports</button>
+                <button id="education" class=".section_categories">Education</button>
+                <button id="lifestyle" class=".section_categories">Lifestyle</button>
+            </section>
+            
+        </div>
+        <div class="question_display">
+            <div class="questions_content">
+                <h1 class="question_category">Section</h1>
+                <h5 class="question_count">Question of </h5>
+                <div class="question_section">
+                    
+                </div>
+            </div>
+            <div class="answer_section">
+                <button id="answer1"></button>
+                <button id="answer2"></button>
+                <button id="answer3"></button>
+                <button id="answer4"></button>
+            </div>
+
+            <div class="bottom_content">
+                <div class="movement_controls">
+                    <button class="previous"><</button>
+                    <button class="next">></button>
+                </div>
+    
+                <button class="submit" style="display: none;">Submit</button>
+            </div>
+            
+        </div>
+        <div class="result_display">
+            <div class="score_text">
+                <h1>Score</h1>
+
+                
+            </div>
+            <div class="statistics">
+                <h4 id="score_display">This is your score</h4>
+                
+                <h1 id="percentage">%</h1>
+            </div>
+            
+        </div>
+        
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
